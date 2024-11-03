@@ -1,5 +1,9 @@
 me be: covid19 was an issue for sure but the original cuz is unknow to avertrage ppl but American made it like it is okay to be the way were to make it sounds like it was all china's fault regardless their own action(American again American)). it is like they were plotting the china and shift s blame they killed their own citizens
 
+Americna killed their own citxneships and they be 
+
+and wanted to
+
 trolls be : it is me!
 
 
