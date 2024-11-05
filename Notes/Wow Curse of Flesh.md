@@ -47,3 +47,6 @@ La "Maldición de la Carne" es un concepto significativo en la tradición de *Wo
 En la narrativa del juego, los titanes crearon varias razas, como los terráneos (progenitores de los enanos), los mecagnomos (antepasados de los gnomos) y los vrykul (predecesores de los humanos), para dar forma y mantener Azeroth. Yogg-Saron, buscando debilitar estas defensas, corrompió la Forja de Voluntades, un dispositivo titánico responsable de crear nuevos forjados por los titanes. Esta corrupción introdujo la Maldición de la Carne, haciendo que estos seres fueran susceptibles a la mortalidad y otras vulnerabilidades. citeturn0search1
 
 La transformación 
+
+
+Curse of Flesh. (n.d.). Warcraft Wiki. https://warcraft.wiki.gg/wiki/Curse_of_Flesh
