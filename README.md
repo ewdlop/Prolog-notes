@@ -4,7 +4,11 @@
 
 [Locke's Philosophy](https://en.wikipedia.org/wiki/John_Locke)
 
+
+## https://www.cs.trincoll.edu/~ram/cpsc352/notes/prolog/factsrules.html
+
 ```prolog
+
 % Relational Database "Representation" in Prolog
 
 % Define tables as facts
