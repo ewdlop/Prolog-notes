@@ -1,5 +1,9 @@
 # Prolog-notes
 
+## Locke's Philosophy
+
+[Locke's Philosophy](https://en.wikipedia.org/wiki/John_Locke)
+
 ```prolog
 % Relational Database "Representation" in Prolog
 
