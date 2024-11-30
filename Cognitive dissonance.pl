@@ -86,3 +86,51 @@ resolve_relationship_conflict(X, Y) :-
 % Example Queries:
 % ?- relationship_conflict(john, mary).
 % ?- resolve_relationship_conflict(john, mary).
+
+
+who_has_dissonance(X, Y) :-
+    belief(X, Belief1), action(X, Action1),
+    belief(Y, Belief2), action(Y, Action2),
+    (conflict(X, Belief1, Action1) ; conflict(Y, Belief2, Action2)),
+    write(X), write(' or '), write(Y), write(' has cognitive dissonance.\n').
+
+
+% Facts: Assign conflict intensity based on beliefs and actions
+conflict_level(john, mary, high).    % John and Mary have a high level of conflict.
+conflict_level(susan, paul, medium). % Susan and Paul have a medium level of conflict.
+conflict_level(anna, mike, low).     % Anna and Mike have a low level of conflict.
+
+% Rules: Assess conflict level
+evaluate_conflict_level(X, Y) :-
+    conflict_level(X, Y, Level),
+    write('The conflict level between '), write(X), write(' and '), write(Y), write(' is '), write(Level), write('.\n').
+
+% Rule: Suggest resolution actions based on conflict level
+suggest_resolution(X, Y) :-
+    conflict_level(X, Y, high),
+    write('Conflict is HIGH between '), write(X), write(' and '), write(Y), write('. Immediate resolution needed:'), nl,
+    write('- Mediation by a neutral third party.'), nl,
+    write('- Honest discussion about beliefs and actions.'), nl,
+    write('- Mutual commitments to change behaviors.'), nl.
+
+suggest_resolution(X, Y) :-
+    conflict_level(X, Y, medium),
+    write('Conflict is MEDIUM between '), write(X), write(' and '), write(Y), write('. Suggested actions:'), nl,
+    write('- Open communication to clarify misunderstandings.'), nl,
+    write('- Small adjustments in actions to align with beliefs.'), nl,
+    write('- Regular check-ins to avoid escalation.'), nl.
+
+suggest_resolution(X, Y) :-
+    conflict_level(X, Y, low),
+    write('Conflict is LOW between '), write(X), write(' and '), write(Y), write('. Maintenance actions:'), nl,
+    write('- Ensure ongoing communication.'), nl,
+    write('- Address minor disagreements before they escalate.'), nl,
+    write('- Reinforce positive behaviors and mutual understanding.'), nl.
+
+% Example Queries:
+% ?- evaluate_conflict_level(john, mary).
+% ?- suggest_resolution(john, mary).
+% ?- suggest_resolution(anna, mike).
+
+
+
