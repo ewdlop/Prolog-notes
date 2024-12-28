@@ -105,3 +105,34 @@ employee_department(EmployeeName, DepartmentName) :-
 % Which department does Tom work in?
 % ?- employee_department(tom, DepartmentName).
 ```
+
+## Contributing Guidelines
+
+We welcome contributions to this repository! Here are some guidelines to help you get started:
+
+1. **Fork the Repository**: Click the "Fork" button at the top right of this page to create a copy of this repository in your GitHub account.
+2. **Clone Your Fork**: Use `git clone` to clone your forked repository to your local machine.
+3. **Create a Branch**: Create a new branch for your changes using `git checkout -b branch-name`.
+4. **Make Changes**: Make your changes to the code or documentation.
+5. **Commit Changes**: Use `git commit -m "Description of changes"` to commit your changes.
+6. **Push Changes**: Use `git push origin branch-name` to push your changes to your forked repository.
+7. **Create a Pull Request**: Go to the original repository and click "New Pull Request" to submit your changes for review.
+
+## Running and Testing Prolog Files
+
+To run and test the Prolog files in this repository, follow these steps:
+
+1. **Install SWI-Prolog**: Download and install SWI-Prolog from [SWI-Prolog's official website](https://www.swi-prolog.org/Download.html).
+2. **Open SWI-Prolog**: Launch the SWI-Prolog interpreter.
+3. **Load a Prolog File**: Use the `consult/1` predicate to load a Prolog file. For example:
+   ```prolog
+   ?- consult('path/to/your/file.pl').
+   ```
+4. **Run Queries**: Enter your queries at the Prolog prompt. For example:
+   ```prolog
+   ?- your_query_here.
+   ```
+5. **Debugging**: Use the built-in debugging tools in SWI-Prolog to troubleshoot and debug your code. You can set breakpoints, trace execution, and inspect variable bindings.
+
+For more detailed information on using SWI-Prolog, refer to the [SWI-Prolog documentation](https://www.swi-prolog.org/pldoc/doc_for?object=manual).
+

@@ -67,7 +67,29 @@ Let \( E \) represent the set of errors, and \( A \) the set of actions taken in
 **Markdown:**
 ```markdown
 **修正後的句子：**
-永遠不會太遲去解決和糾正過去的錯誤。認識到錯誤並採取措施加以糾正可以促進個人成長和改善結果。無所作為地沉溺於過去的錯誤可能導致抑鬱和無助感。然而，積極地解決錯誤可以培養韌性和自我提升。因此，建議採取建設性的步驟來彌補過去的錯誤，而不是放棄。
-
-**中文：**
 永遠不會太遲去解決和糾正過去的錯誤。認識到錯誤並採取措施加以糾正可以促進個人成長和改善結果。無所作為地沉溺於過去的錯誤可能導致抑鬱和無助感。然而，積極地解決錯誤可以培 
+```
+
+---
+
+## Handling Mistakes in Prolog Code
+
+When working with Prolog, mistakes are inevitable. Here are some steps to handle and debug mistakes in your Prolog code:
+
+1. **Identify the Mistake**: Carefully read the error messages provided by the Prolog interpreter. These messages often indicate the type of error and the location in the code where it occurred.
+
+2. **Trace Execution**: Use the built-in tracing tools in Prolog to follow the execution of your code. This can help you understand the flow of logic and identify where things go wrong. In SWI-Prolog, you can use the `trace/0` predicate to start tracing.
+
+3. **Check Syntax**: Ensure that your code follows the correct syntax for Prolog. Common syntax errors include missing periods, incorrect use of parentheses, and misplaced commas.
+
+4. **Validate Logic**: Verify that your predicates and rules are logically sound. Ensure that the conditions and relationships you define make sense and lead to the expected outcomes.
+
+5. **Test Incrementally**: Test your code in small increments. Write and test one predicate or rule at a time to isolate issues and ensure each part works correctly before combining them.
+
+6. **Use Debugging Tools**: Take advantage of Prolog's debugging tools, such as the `debug/0` predicate, which allows you to set breakpoints and inspect variable bindings during execution.
+
+7. **Seek Help**: If you're stuck, don't hesitate to seek help from the Prolog community. Online forums, discussion groups, and documentation can provide valuable insights and solutions to common problems.
+
+**References:**
+- [SWI-Prolog Debugger](https://www.swi-prolog.org/pldoc/man?section=debugger)
+- [Prolog Debugging Techniques](https://www.cpp.edu/~jrfisher/www/prolog_tutorial/2_15.html)
