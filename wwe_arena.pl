@@ -30,3 +30,8 @@ person(paul).
 gave_knife(hitman,cilent).  % John把刀給了Paul
 killed(paul, hitman).      % Paul用刀殺了Mary
 
+% 判斷是否是殺手
+is_hitman(mary) :- killed(paul, mary).  % 如果Paul殺了Mary，則Mary是目標。
+
+?- is_hitman(mary) %someone lied?
+
