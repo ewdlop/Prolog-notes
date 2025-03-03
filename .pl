@@ -1,1 +1,2 @@
-logical_fallacy(undecidebility)
+logical_fallacy(undecidability)
+logical_fallacy(undecidability)
